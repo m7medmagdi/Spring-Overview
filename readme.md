@@ -59,7 +59,9 @@ The `spring-boot-actuator` dependency provides essential features for monitoring
    - **Benefit**: Provides access to important details like build version and custom metadata.
 
 ## Integration Instructions
-
+### Configuring Actuator Endpoints
+## management.endpoints.web.exposure.include=health,metrics,info
+## management.endpoint.health.show-details=always
 ### Adding Dependencies
 
 To include these dependencies in your Spring Boot project, add the following to your `pom.xml`:
@@ -85,7 +87,5 @@ To include these dependencies in your Spring Boot project, add the following to 
         <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 </dependencies>
-### Configuring Actuator Endpoints
-## management.endpoints.web.exposure.include=health,metrics,info
-## management.endpoint.health.show-details=always
+
 
