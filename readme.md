@@ -85,7 +85,7 @@ To include these dependencies in your Spring Boot project, add the following to 
         <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 </dependencies>
-## Configuring Actuator Endpoints
-###management.endpoints.web.exposure.include=health,metrics,info
-###management.endpoint.health.show-details=always
+### Configuring Actuator Endpoints
+## management.endpoints.web.exposure.include=health,metrics,info
+## management.endpoint.health.show-details=always
 
