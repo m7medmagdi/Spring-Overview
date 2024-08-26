@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="dev-tools-demo/src/main/java"/>
+	<classpathentry kind="src" path="dev-tools-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring-boot-demo/src/test/java"/>
+	<classpathentry kind="lib" path="/home/hex/.m2/repository/org/springframework/spring-web/6.1.12/spring-web-6.1.12.jar" sourcepath="/home/hex/.m2/repository/org/springframework/spring-web/6.1.12/spring-web-6.1.12-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-web"/>
+			<attribute name="maven.version" value="6.1.12"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="dev-tools-demo/target/classes"/>
+</classpath>
